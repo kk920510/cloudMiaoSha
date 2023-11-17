@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java1234.miaosha.mapper.MiaoShaGoodsMapper">
+
+    <resultMap type="com.java1234.miaosha.vo.MiaoShaGoodsVo" id="MiaoShaGoodsResult">
+        <association property="goods" column="goods_id" select="com.java1234.miaosha.mapper.GoodsMapper.findById"></association>
+    </resultMap>
+
+    <select id="listAll" resultMap="MiaoShaGoodsResult">
+        select * from t_goods_miaosha
+    </select>
+
+    <select id="findById" parameterType="Integer" resultMap="MiaoShaGoodsResult">
+        select * from t_goods_miaosha where id=#{id}
+    </select>
+
+    <update id="reduceStock" parameterType="Integer">
+        update t_goods_miaosha set stock=stock-1 where id=#{id} and stock>0
+    </update>
+
+
+</mapper>

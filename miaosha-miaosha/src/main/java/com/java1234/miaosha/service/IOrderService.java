@@ -1,0 +1,29 @@
+package com.java1234.miaosha.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.java1234.miaosha.entity.Order;
+
+import java.util.Map;
+
+/**
+ * 用户Service接口
+ * @author zk
+ * @company Java知识分享网
+ * @create 2021-01-23 21:36
+ */
+public interface IOrderService extends IService<Order> {
+
+    /**
+     * 根据id查询订单
+     * @param id
+     * @return
+     */
+    public Order findById(String id);
+
+    /**
+     * 根据用户id和秒杀商品id查询订单
+     * @param map
+     * @return
+     */
+    public Order findByUserIdAndMiaoShaGoodsId(Map map);
+}
