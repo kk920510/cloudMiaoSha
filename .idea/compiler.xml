@@ -7,12 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="miaosha-user" />
         <module name="miaosha-order2" />
-        <module name="miaosha-goods" />
-        <module name="miaosha-getway" />
         <module name="miaosha-order" />
         <module name="miaosha-common" />
+        <module name="miaosha-goods" />
+        <module name="miaosha-getway" />
+        <module name="miaosha-user" />
         <module name="miaosha-miaosha" />
       </profile>
     </annotationProcessing>

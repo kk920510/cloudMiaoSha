@@ -1,0 +1,43 @@
+
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:  # 网关这边做跨域
+          '[/**]':
+              allowCredentials: true
+              allowedHeaders: "*"
+              allowedOrigins: "*"
+              allowedMethods: "*"
+      routes:
+        - id: user_router  #路由
+          uri: lb://miaosha-user  #服务名
+          predicates:
+            - Path=/user/**  # 断言
+
+        - id: goods_router
+          uri: lb://miaosha-goods  #服务名
+          predicates:
+            - Path=/goods/** # 断言
+
+        - id: miaoShaGoods_router
+          uri: lb://miaosha-goods #服务名
+          predicates:
+            - Path=/miaoShaGoods/**  # 断言
+
+        - id: miaosha_router
+          uri: lb://miaosha-miaosha  #服务名
+          predicates:
+            - Path=/miaoSha/**, /verifyCode/**  # 断言
+          filters:
+            - name: RequestRateLimiter  # 限流过滤器
+              args:
+                redis-rate-limiter.replenishRate: 1   # 令牌桶每秒填充速率
+                redis-rate-limiter.burstCapacity: 2   # 令牌桶总容量
+                redis-rate-limiter.requestedTokens: 1  # 一个请求需要消费的令牌数
+                key-resolver: "#{@pathKeyResolver}"
+
+        - id: order_router
+          uri: lb://miaosha-order
+          predicates:
+            - Path=/order/**
