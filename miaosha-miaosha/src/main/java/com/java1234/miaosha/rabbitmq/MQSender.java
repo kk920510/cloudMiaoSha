@@ -9,8 +9,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author zk
- * @company Java知识分享网
- * @create 2021-02-27 21:02
+ * @create 2023-11-17 21:02
  */
 @Service
 public class MQSender {

@@ -8,10 +8,8 @@ import reactor.core.publisher.Mono;
 /**
  * 限流规则配置类
  *
- * @author java1234_小锋
- * @site www.java1234.com
- * @company Java知识分享网
- * @create 2021-01-23 11:16
+ * @author zk
+ * @create 2023-11-17
  */
 @Configuration
 public class KeyResolverConfiguration {

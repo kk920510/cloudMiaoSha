@@ -8,8 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * rabbitmq配置类
  * @author zk
- * @company Java知识分享网
- * @create 2021-02-27 20:58
+ * @create 2023-11-17 20:58
  */
 @Configuration
 public class MQConfig {

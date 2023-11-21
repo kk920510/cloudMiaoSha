@@ -13,8 +13,7 @@ import java.util.List;
 /**
  * 秒杀商品service实现类
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-30 15:26
+ * @create 2023-11-30 15:26
  */
 @Service("miaoshaGoodsService")
 public class MiaoShaGoodsServiceImpl extends ServiceImpl<MiaoShaGoodsMapper,MiaoShaGoods> implements IMiaoShaGoodsService {

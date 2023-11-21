@@ -14,8 +14,7 @@ import java.util.Map;
 /**
  * 秒杀商品控制器
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-30 15:28
+
  */
 @RestController
 @RequestMapping("/order")

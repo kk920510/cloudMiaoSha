@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="miaosha-order2" />
         <module name="miaosha-order" />
-        <module name="miaosha-common" />
         <module name="miaosha-goods" />
         <module name="miaosha-getway" />
-        <module name="miaosha-user" />
         <module name="miaosha-miaosha" />
+        <module name="miaosha-user" />
+        <module name="miaosha-common" />
       </profile>
     </annotationProcessing>
   </component>

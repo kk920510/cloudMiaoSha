@@ -16,8 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
  * 秒杀Service实现类
  *
  * @author zk
- * @company Java知识分享网
- * @create 2021-02-10 13:30
+ * @create 2023-11-10 13:30
  */
 @Service("miaoShaService")
 public class MiaoShaServiceImpl implements IMiaoShaService {

@@ -13,8 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 鉴权拦截器
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-29 14:11
+ * @create 2023-11-29 14:11
  */
 public class SysInterceptor implements HandlerInterceptor {
 

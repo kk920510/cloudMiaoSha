@@ -6,8 +6,7 @@ import java.util.Random;
 
 /**
  * 字符串工具类
- * @author 
- *
+ * @author zk
  */
 public class StringUtil {
 

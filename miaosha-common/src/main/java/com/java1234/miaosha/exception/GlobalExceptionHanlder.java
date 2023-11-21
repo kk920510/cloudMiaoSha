@@ -10,8 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 全局异常处理
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-29 15:16
+ * @create 2023-11-29 15:16
  */
 @ControllerAdvice
 @ResponseBody

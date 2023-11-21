@@ -13,8 +13,7 @@ import java.util.List;
 /**
  * 启动的时候加载秒杀商品库存信息和是否秒杀完标识
  * @author zk
- * @company Java知识分享网
- * @create 2021-03-01 9:39
+ * @create 2023-03-11 9:39
  */
 @Component("startupRunner")
 public class StartupRunner implements CommandLineRunner {

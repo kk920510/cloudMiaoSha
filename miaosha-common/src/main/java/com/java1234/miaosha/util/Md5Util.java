@@ -5,8 +5,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 /**
  * md5加密工具类
  * @author zk
- * @company Java知识分享网
- * @create 2020-11-23 18:54
+ * @create 2023-11-13 18:54
  */
 public class Md5Util {
 

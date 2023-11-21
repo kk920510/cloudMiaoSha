@@ -19,8 +19,7 @@ import java.util.HashMap;
 
 /**
  * @author zk
- * @company Java知识分享网
- * @create 2021-02-27 21:05
+ * @create 2023-11-17 21:05
  */
 @Service
 public class MQReceiver {

@@ -10,8 +10,7 @@ import java.util.Date;
 /**
  * 订单实体
  * @author zk
- * @company Java知识分享网
- * @create 2020-12-20 17:04
+ * @create 2023-12-20 17:04
  */
 @TableName("t_order")
 @Data

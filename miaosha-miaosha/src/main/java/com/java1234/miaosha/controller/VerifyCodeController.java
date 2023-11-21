@@ -24,8 +24,7 @@ import java.util.Random;
 /**
  * 订单控制器
  * @author zk
- * @company Java知识分享网
- * @create 2020-12-13 11:20
+ * @create 2023-12-13 11:20
  */
 @Controller
 @RequestMapping("/verifyCode")

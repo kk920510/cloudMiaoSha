@@ -3,8 +3,7 @@ package com.java1234.miaosha.constant;
 
 /**
  * @author zk
- * @company Java知识分享网
- * @create 2020-11-28 14:18
+ * @create 2023-11-15 14:18
  */
 public class Constant {
 

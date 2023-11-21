@@ -6,8 +6,7 @@ import com.java1234.miaosha.entity.Goods;
 /**
  * 商品Mapper接口
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-30 15:19
+ * @create 2023-11-30 15:19
  */
 public interface GoodsMapper extends BaseMapper<Goods> {
 

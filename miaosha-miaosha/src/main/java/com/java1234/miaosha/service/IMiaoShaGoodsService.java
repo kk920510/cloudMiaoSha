@@ -9,8 +9,7 @@ import java.util.List;
 /**
  * 秒杀商品service接口
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-30 15:25
+ * @create 2023-11-30 15:25
  */
 public interface IMiaoShaGoodsService extends IService<MiaoShaGoods> {
 

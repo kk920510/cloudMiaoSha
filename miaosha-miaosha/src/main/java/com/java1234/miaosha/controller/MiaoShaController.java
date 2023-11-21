@@ -22,8 +22,7 @@ import java.util.Map;
 /**
  * 秒杀控制器
  * @author zk
- * @company Java知识分享网
- * @create 2021-02-08 13:42
+ * @create 2023-11-08 13:42
  */
 @RestController
 @RequestMapping("/miaoSha")

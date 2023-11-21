@@ -11,8 +11,7 @@ import java.util.Date;
 /**
  * 秒杀商品实体
  * @author zk
- * @company Java知识分享网
- * @create 2020-11-17 10:57
+ * @create 2023-11-17 10:57
  */
 @TableName("t_goods_miaosha")
 @Data

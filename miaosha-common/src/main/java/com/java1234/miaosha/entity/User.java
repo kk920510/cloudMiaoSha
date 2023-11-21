@@ -11,8 +11,7 @@ import java.util.Date;
 /**
  * 用户信息实体
  * @author zk
- * @company Java知识分享网
- * @create 2020-11-25 20:30
+ * @create 2023-11-15 20:30
  */
 @TableName("t_user")
 @Data

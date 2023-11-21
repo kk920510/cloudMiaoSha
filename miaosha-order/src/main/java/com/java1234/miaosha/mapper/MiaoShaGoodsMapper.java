@@ -9,8 +9,7 @@ import java.util.List;
 /**
  * 秒杀商品Mapper接口
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-30 15:20
+ * @create 2023-11-30 15:20
  */
 public interface MiaoShaGoodsMapper extends BaseMapper<MiaoShaGoods> {
 

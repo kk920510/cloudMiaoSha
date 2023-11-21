@@ -8,8 +8,7 @@ import java.util.Map;
 /**
  * 用户Service接口
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-23 21:36
+ * @create 2023-11-23 21:36
  */
 public interface IOrderService extends IService<Order> {
 

@@ -6,8 +6,7 @@ import lombok.Data;
 
 /**
  * @author zk
- * @company Java知识分享网
- * @create 2020-12-17 19:28
+ * @create 2023-12-17 19:28
  */
 @Data
 public class MiaoShaGoodsVo extends MiaoShaGoods {

@@ -8,8 +8,7 @@ import java.util.Map;
 /**
  * 用户Mapper接口
  * @author zk
- * @company Java知识分享网
- * @create 2021-01-23 21:34
+ * @create 2023-11-23 21:34
  */
 public interface OrderMapper extends BaseMapper<Order> {
 
