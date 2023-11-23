@@ -6,7 +6,7 @@ import com.java1234.miaosha.entity.User;
 /**
  * 用户Service接口
  * @author zk
- * @create 2023-11-23 21:36
+ * @create 2023-11-13 21:36
  */
 public interface IUserService extends IService<User> {
 

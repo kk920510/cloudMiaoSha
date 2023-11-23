@@ -6,7 +6,7 @@ import com.java1234.miaosha.entity.User;
 /**
  * 用户Mapper接口
  * @author zk
- * @create 2023-11-23 21:34
+ * @create 2023-11-13 21:34
  */
 public interface UserMapper extends BaseMapper<User> {
 

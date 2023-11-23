@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSON;
 /**
  * bean string转换工具类
  * @author zk
- * @create 2023-12-28 15:10
+ * @create 2023-12-18 15:10
  */
 public class BeanUtil {
 
